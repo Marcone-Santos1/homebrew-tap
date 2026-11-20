@@ -1,7 +1,7 @@
 class ArgusPanel < Formula
   desc "Terminal panel for running many coding-agent sessions side by side on tmux"
   homepage "https://github.com/Marcone-Santos1/argus"
-  version "0.1.0"
+  version "0.1.1"
   license "MIT"
 
   depends_on "tmux"
@@ -10,23 +10,23 @@ class ArgusPanel < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/Marcone-Santos1/argus/releases/download/v0.1.0/argus_0.1.0_darwin_arm64.tar.gz"
-      sha256 "5976020e24d6f00bc3047f002a04e04cbd58f2a3197fe580318868c720399589"
+      url "https://github.com/Marcone-Santos1/argus/releases/download/v0.1.1/argus_0.1.1_darwin_arm64.tar.gz"
+      sha256 "fd443778f305484dbc79c6a39eb3c743a2a227e6a29fec8ceceae8ad693e3538"
     end
     on_intel do
-      url "https://github.com/Marcone-Santos1/argus/releases/download/v0.1.0/argus_0.1.0_darwin_amd64.tar.gz"
-      sha256 "19eccb6eba8674d1c5257868fc2182bb1cfae9f7dcf97984a4bf5241abd53b9b"
+      url "https://github.com/Marcone-Santos1/argus/releases/download/v0.1.1/argus_0.1.1_darwin_amd64.tar.gz"
+      sha256 "ebac99187fadf0181d65e463f2ea14f14bc30948a0fbe6675e9cfc3e65fae263"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/Marcone-Santos1/argus/releases/download/v0.1.0/argus_0.1.0_linux_arm64.tar.gz"
-      sha256 "503397b944e33c37090ebfaffacddafd1c7930be4b6a9c146e7061b618b3abd2"
+      url "https://github.com/Marcone-Santos1/argus/releases/download/v0.1.1/argus_0.1.1_linux_arm64.tar.gz"
+      sha256 "ae7170f42ee21b71f8016e94b9c8fce6d669cff8ce7662d3e9d6e08854d092b6"
     end
     on_intel do
-      url "https://github.com/Marcone-Santos1/argus/releases/download/v0.1.0/argus_0.1.0_linux_amd64.tar.gz"
-      sha256 "2d86d223518863784edb2ac6a054ee1b08e398aeafe5ca109ba0ce5737e97858"
+      url "https://github.com/Marcone-Santos1/argus/releases/download/v0.1.1/argus_0.1.1_linux_amd64.tar.gz"
+      sha256 "a4d7649ddc19b11f437b87a8e708300aa4c1c132f2bd590e5d35c2a6d7fcf562"
     end
   end
 
